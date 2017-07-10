@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E90BA011F1354560071949A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E90BA001F1354560071949A /* AppDelegate.swift */; };
+		5E90BA031F1354560071949A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E90BA021F1354560071949A /* ViewController.swift */; };
+		5E90BA061F1354560071949A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E90BA041F1354560071949A /* Main.storyboard */; };
+		5E90BA081F1354560071949A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E90BA071F1354560071949A /* Assets.xcassets */; };
+		5E90BA0B1F1354560071949A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E90BA091F1354560071949A /* LaunchScreen.storyboard */; };
+		5E90BA161F1354560071949A /* ClubBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E90BA151F1354560071949A /* ClubBuddyTests.swift */; };
+		5E90BA211F1354560071949A /* ClubBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E90BA201F1354560071949A /* ClubBuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E90BA121F1354560071949A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E90B9F51F1354560071949A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E90B9FC1F1354560071949A;
+			remoteInfo = ClubBuddy;
+		};
+		5E90BA1D1F1354560071949A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E90B9F51F1354560071949A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E90B9FC1F1354560071949A;
+			remoteInfo = ClubBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E90B9FD1F1354560071949A /* ClubBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E90BA001F1354560071949A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E90BA021F1354560071949A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E90BA051F1354560071949A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E90BA071F1354560071949A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E90BA0A1F1354560071949A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E90BA0C1F1354560071949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E90BA111F1354560071949A /* ClubBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E90BA151F1354560071949A /* ClubBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubBuddyTests.swift; sourceTree = "<group>"; };
+		5E90BA171F1354560071949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E90BA1C1F1354560071949A /* ClubBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E90BA201F1354560071949A /* ClubBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubBuddyUITests.swift; sourceTree = "<group>"; };
+		5E90BA221F1354560071949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E90B9FA1F1354560071949A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90BA0E1F1354560071949A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90BA191F1354560071949A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E90B9F41F1354560071949A = {
+			isa = PBXGroup;
+			children = (
+				5E90B9FF1F1354560071949A /* ClubBuddy */,
+				5E90BA141F1354560071949A /* ClubBuddyTests */,
+				5E90BA1F1F1354560071949A /* ClubBuddyUITests */,
+				5E90B9FE1F1354560071949A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E90B9FE1F1354560071949A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E90B9FD1F1354560071949A /* ClubBuddy.app */,
+				5E90BA111F1354560071949A /* ClubBuddyTests.xctest */,
+				5E90BA1C1F1354560071949A /* ClubBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E90B9FF1F1354560071949A /* ClubBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				5E90BA001F1354560071949A /* AppDelegate.swift */,
+				5E90BA021F1354560071949A /* ViewController.swift */,
+				5E90BA041F1354560071949A /* Main.storyboard */,
+				5E90BA071F1354560071949A /* Assets.xcassets */,
+				5E90BA091F1354560071949A /* LaunchScreen.storyboard */,
+				5E90BA0C1F1354560071949A /* Info.plist */,
+			);
+			path = ClubBuddy;
+			sourceTree = "<group>";
+		};
+		5E90BA141F1354560071949A /* ClubBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E90BA151F1354560071949A /* ClubBuddyTests.swift */,
+				5E90BA171F1354560071949A /* Info.plist */,
+			);
+			path = ClubBuddyTests;
+			sourceTree = "<group>";
+		};
+		5E90BA1F1F1354560071949A /* ClubBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E90BA201F1354560071949A /* ClubBuddyUITests.swift */,
+				5E90BA221F1354560071949A /* Info.plist */,
+			);
+			path = ClubBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E90B9FC1F1354560071949A /* ClubBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E90BA251F1354560071949A /* Build configuration list for PBXNativeTarget "ClubBuddy" */;
+			buildPhases = (
+				5E90B9F91F1354560071949A /* Sources */,
+				5E90B9FA1F1354560071949A /* Frameworks */,
+				5E90B9FB1F1354560071949A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClubBuddy;
+			productName = ClubBuddy;
+			productReference = 5E90B9FD1F1354560071949A /* ClubBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E90BA101F1354560071949A /* ClubBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E90BA281F1354560071949A /* Build configuration list for PBXNativeTarget "ClubBuddyTests" */;
+			buildPhases = (
+				5E90BA0D1F1354560071949A /* Sources */,
+				5E90BA0E1F1354560071949A /* Frameworks */,
+				5E90BA0F1F1354560071949A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E90BA131F1354560071949A /* PBXTargetDependency */,
+			);
+			name = ClubBuddyTests;
+			productName = ClubBuddyTests;
+			productReference = 5E90BA111F1354560071949A /* ClubBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E90BA1B1F1354560071949A /* ClubBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E90BA2B1F1354560071949A /* Build configuration list for PBXNativeTarget "ClubBuddyUITests" */;
+			buildPhases = (
+				5E90BA181F1354560071949A /* Sources */,
+				5E90BA191F1354560071949A /* Frameworks */,
+				5E90BA1A1F1354560071949A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E90BA1E1F1354560071949A /* PBXTargetDependency */,
+			);
+			name = ClubBuddyUITests;
+			productName = ClubBuddyUITests;
+			productReference = 5E90BA1C1F1354560071949A /* ClubBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E90B9F51F1354560071949A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = georgekapoya;
+				TargetAttributes = {
+					5E90B9FC1F1354560071949A = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					5E90BA101F1354560071949A = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 5E90B9FC1F1354560071949A;
+					};
+					5E90BA1B1F1354560071949A = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 5E90B9FC1F1354560071949A;
+					};
+				};
+			};
+			buildConfigurationList = 5E90B9F81F1354560071949A /* Build configuration list for PBXProject "ClubBuddy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E90B9F41F1354560071949A;
+			productRefGroup = 5E90B9FE1F1354560071949A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E90B9FC1F1354560071949A /* ClubBuddy */,
+				5E90BA101F1354560071949A /* ClubBuddyTests */,
+				5E90BA1B1F1354560071949A /* ClubBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E90B9FB1F1354560071949A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E90BA0B1F1354560071949A /* LaunchScreen.storyboard in Resources */,
+				5E90BA081F1354560071949A /* Assets.xcassets in Resources */,
+				5E90BA061F1354560071949A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90BA0F1F1354560071949A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90BA1A1F1354560071949A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E90B9F91F1354560071949A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E90BA031F1354560071949A /* ViewController.swift in Sources */,
+				5E90BA011F1354560071949A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90BA0D1F1354560071949A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E90BA161F1354560071949A /* ClubBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90BA181F1354560071949A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E90BA211F1354560071949A /* ClubBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E90BA131F1354560071949A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E90B9FC1F1354560071949A /* ClubBuddy */;
+			targetProxy = 5E90BA121F1354560071949A /* PBXContainerItemProxy */;
+		};
+		5E90BA1E1F1354560071949A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E90B9FC1F1354560071949A /* ClubBuddy */;
+			targetProxy = 5E90BA1D1F1354560071949A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E90BA041F1354560071949A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E90BA051F1354560071949A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E90BA091F1354560071949A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E90BA0A1F1354560071949A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E90BA231F1354560071949A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E90BA241F1354560071949A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E90BA261F1354560071949A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KECY24A8S;
+				INFOPLIST_FILE = ClubBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgekapoya.clubbuddy.ClubBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E90BA271F1354560071949A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KECY24A8S;
+				INFOPLIST_FILE = ClubBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgekapoya.clubbuddy.ClubBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E90BA291F1354560071949A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9KECY24A8S;
+				INFOPLIST_FILE = ClubBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgekapoya.clubbuddy.ClubBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubBuddy.app/ClubBuddy";
+			};
+			name = Debug;
+		};
+		5E90BA2A1F1354560071949A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9KECY24A8S;
+				INFOPLIST_FILE = ClubBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgekapoya.clubbuddy.ClubBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubBuddy.app/ClubBuddy";
+			};
+			name = Release;
+		};
+		5E90BA2C1F1354560071949A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9KECY24A8S;
+				INFOPLIST_FILE = ClubBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgekapoya.clubbuddy.ClubBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClubBuddy;
+			};
+			name = Debug;
+		};
+		5E90BA2D1F1354560071949A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9KECY24A8S;
+				INFOPLIST_FILE = ClubBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.georgekapoya.clubbuddy.ClubBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClubBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E90B9F81F1354560071949A /* Build configuration list for PBXProject "ClubBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E90BA231F1354560071949A /* Debug */,
+				5E90BA241F1354560071949A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E90BA251F1354560071949A /* Build configuration list for PBXNativeTarget "ClubBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E90BA261F1354560071949A /* Debug */,
+				5E90BA271F1354560071949A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E90BA281F1354560071949A /* Build configuration list for PBXNativeTarget "ClubBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E90BA291F1354560071949A /* Debug */,
+				5E90BA2A1F1354560071949A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E90BA2B1F1354560071949A /* Build configuration list for PBXNativeTarget "ClubBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E90BA2C1F1354560071949A /* Debug */,
+				5E90BA2D1F1354560071949A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E90B9F51F1354560071949A /* Project object */;
+}
